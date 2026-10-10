@@ -88,7 +88,7 @@ public class ShutdownService {
                     Chat.console(Phrase.build(Phrase.FINISHING_LOGGING));
                 }
 
-                waitForPendingOperations(shutdownTime, nextAlertTime);
+                //waitForPendingOperations(shutdownTime, nextAlertTime);
             }
             finally {
                 ConfigHandler.shutdownDrainRunning = false;
